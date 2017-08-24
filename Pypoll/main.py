@@ -1,22 +1,21 @@
 import csv
 import os
+#input ,output files path in dictionary
 file_dictionary={"election_data_1.csv":"election_analysis_1.txt","election_data_2.csv":"election_analysis_2.txt"}
 for key,value in file_dictionary.items():
     print("Input File:" + key  )
-
-    total_votes=0
+#Variable initialization
+   
     voter_list=[]
     candidate_votes={}
     winner=""
     percentagevalue=0
     heighest_votes=0
-   # csvpath=os.path.join("../PyPoll","election3.csv")
-   # file_text=os.path.join("../PyPoll","electionanalysis.txt")
     csvpath=os.path.join("../PyPoll",key)
     file_text=os.path.join("../PyPoll",value)
     with open(csvpath) as csvfile :
         reader=csv.DictReader(csvfile,delimiter=",")
-        
+        #loop through each csv file
         for row in reader:
             if row["Candidate"] in candidate_votes:
                 candidate_votes[row["Candidate"]] += 1
