@@ -1,0 +1,7 @@
+Final Analysis
+**********************************
+Total Months: 41
+Total Revenue: $18971412
+Greatest Increase: 1837235 in Feb-16
+Greatest Decrease: -1779747 in Aug-14
+Average Change: 1837235
