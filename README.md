@@ -43,6 +43,7 @@ The total number of votes each candidate won
 The winner of the election based on popular vote.
 
 As an example, analysis should look similar to the one below:
+
 Election Results
 -------------------------
 Total Votes: 620100
@@ -54,6 +55,7 @@ Higgins: 6.0% (37206)
 -------------------------
 Winner: Gomez
 -------------------------
+
 
 Option 3: PyBoss
 
