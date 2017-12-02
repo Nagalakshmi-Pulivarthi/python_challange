@@ -1,6 +1,7 @@
 
 
 
+
 Option 1: PyBank
 
 In this challenge,  created a Python script for analyzing the financial records of company.  Two sets of revenue data (budget_data_1.csv and budget_data_2.csv). Each dataset is composed of two columns: Date and Revenue.
@@ -45,13 +46,19 @@ The winner of the election based on popular vote.
 As an example, analysis should look similar to the one below:
 
 Election Results
+
 -------------------------
 Total Votes: 620100
 -------------------------
+
 Rogers: 36.0% (223236)
+
 Gomez: 54.0% (334854)
+
 Brentwood: 4.0% (24804)
+
 Higgins: 6.0% (37206)
+
 -------------------------
 Winner: Gomez
 -------------------------
